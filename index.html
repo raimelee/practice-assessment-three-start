@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="form">
+        <form>
+          <div class="text-input">
+            <label for="text">Text</label>
+            <input type="text" name="text" id="text" placeholder="Hello" />
+          </div>
+          <div class="size-input">
+            <label for="size">Size</label>
+            <input type="size" name="size" id="size" placeholder="100" />
+          </div>
+
+          <div class="circle-input">
+            <input
+              type="checkbox"
+              name="make-circle"
+              id="make-circle"
+              class="circle-checkbox"
+            />
+            <label for="make-circle">Make it a circle</label>
+          </div>
+          <button class="add-button">Add It!</button>
+        </form>
+      </div>
+      <ul class="shapes-container"></ul>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

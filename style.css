@@ -1,0 +1,31 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.circle-form {
+  display: flex;
+}
+
+label {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+.shape {
+  border: solid;
+  border-width: 2px;
+  border-color: brown;
+  background-color: bisque;
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.circle {
+  border-radius: 50%;
+}
